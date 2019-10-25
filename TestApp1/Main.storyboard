@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4F5-Cb-Rui">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Initial View Controller-->
+        <scene sceneID="iRF-cp-eL1">
+            <objects>
+                <viewController id="soB-nQ-i5d" customClass="InitialViewController" customModule="TestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1yU-c9-58O">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="cSA-bu-J2c">
+                                <rect key="frame" x="7.6666666666666572" y="301.66666666666669" width="399" height="239.00000000000006"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWP-0a-t17">
+                                        <rect key="frame" x="0.0" y="0.0" width="399" height="58"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="40"/>
+                                        <state key="normal" title="Waste Management"/>
+                                        <connections>
+                                            <segue destination="yH3-VF-fpg" kind="show" id="Ypa-a9-h2b"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqx-Mz-o87">
+                                        <rect key="frame" x="0.0" y="98" width="399" height="58"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="40"/>
+                                        <state key="normal" title="Clean Air"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5C-6f-4lA">
+                                        <rect key="frame" x="0.0" y="196" width="399" height="43"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="27"/>
+                                        <state key="normal" title="Calculate Your Carbon Reduction"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="BgV-8C-8eW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="EtH-AB-uof">
+                                <rect key="frame" x="238" y="626" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="clQ-qe-1Cp">
+                                <rect key="frame" x="356" y="126" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="jzS-Zo-NDY">
+                                <rect key="frame" x="293" y="44" width="101" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PoX-1L-6tb">
+                                <rect key="frame" x="20" y="20" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Home"/>
+                                <connections>
+                                    <segue destination="ckH-F7-dQr" kind="show" id="HRr-QX-SYT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cSA-bu-J2c" firstAttribute="centerX" secondItem="1yU-c9-58O" secondAttribute="centerX" id="Xif-XO-Pjx"/>
+                            <constraint firstItem="cSA-bu-J2c" firstAttribute="centerY" secondItem="1yU-c9-58O" secondAttribute="centerY" id="aQi-te-Lx7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hcq-Ts-WzS"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="F29-iM-N7b"/>
+                    <connections>
+                        <outlet property="AirBtn" destination="hqx-Mz-o87" id="OAP-EP-psn"/>
+                        <outlet property="CarbonBtn" destination="Q5C-6f-4lA" id="Xj7-H4-0WE"/>
+                        <outlet property="WasteBtn" destination="LWP-0a-t17" id="lsc-ZQ-Feh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Jk-Xc-rh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2602.898550724638" y="-519.64285714285711"/>
+        </scene>
+        <!--Recycle View Controller-->
+        <scene sceneID="My5-dS-IeY">
+            <objects>
+                <viewController id="yH3-VF-fpg" customClass="RecycleViewController" customModule="TestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rzT-eK-x4Q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jDs-yj-qBn">
+                                <rect key="frame" x="20" y="59" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Home"/>
+                                <connections>
+                                    <segue destination="ckH-F7-dQr" kind="show" id="RFK-zg-bYq"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBn-wR-ie3">
+                                <rect key="frame" x="14" y="561" width="386" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Recycling reduces the amount of waste sent to landfills and incinerators. It also conserves natural resources such as timber, water and minerals. Recycling prevents pollution and saves energy.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1A-sl-cZr">
+                                <rect key="frame" x="14" y="243" width="386" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Recycling is the process of collecting and processing materials that would otherwise be thrown away as trash and turning them into new products. Recycling can benefit your community and the environment.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Recycle Bins" translatesAutoresizingMaskIntoConstraints="NO" id="1VT-3V-Jlh">
+                                <rect key="frame" x="49" y="368" width="317" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="4Da-9g-10C">
+                                <rect key="frame" x="293" y="20" width="101" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="RTN-09-UuS">
+                                <rect key="frame" x="5" y="112" width="404" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgG-HL-xCf">
+                                        <rect key="frame" x="0.0" y="0.0" width="93" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="klT-8Y-ejx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
+                                        <state key="normal" title=" Recycle "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7MG-TY-3O2">
+                                        <rect key="frame" x="108" y="0.0" width="107" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Kyk-V8-Byj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
+                                        <state key="normal" title=" Compost "/>
+                                        <connections>
+                                            <segue destination="7aZ-tJ-4XP" kind="show" id="54c-Rp-Jll"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzs-qy-nk6">
+                                        <rect key="frame" x="230" y="0.0" width="95" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="uQi-Tt-bDy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
+                                        <state key="normal" title=" Landfill "/>
+                                        <connections>
+                                            <segue destination="ftk-ub-4Bj" kind="show" id="bI7-P9-qX4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUa-uv-mCl">
+                                        <rect key="frame" x="340" y="0.0" width="64" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="WkY-zM-Hak"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <state key="normal" title=" Quiz "/>
+                                        <connections>
+                                            <action selector="QuizBtnClicked:" destination="yH3-VF-fpg" eventType="touchUpInside" id="vwT-vh-5Bi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="u0A-zg-9x9"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lA2-kf-SDV"/>
+                    <connections>
+                        <outlet property="CompostButton" destination="7MG-TY-3O2" id="jov-3d-6H9"/>
+                        <outlet property="LandfillButton" destination="yzs-qy-nk6" id="qWQ-Y0-eIl"/>
+                        <outlet property="QuizButton" destination="fUa-uv-mCl" id="gSi-dN-yEf"/>
+                        <outlet property="RecycleButton" destination="bgG-HL-xCf" id="m8I-Dc-RMi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z8Z-Dl-kuA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4176.811594202899" y="-952.23214285714278"/>
+        </scene>
+        <!--Compost View Controller-->
+        <scene sceneID="U1k-N4-csJ">
+            <objects>
+                <viewController id="7aZ-tJ-4XP" customClass="CompostViewController" customModule="TestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IFs-6s-nRV" customClass="Com">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVK-Xl-TvA">
+                                <rect key="frame" x="7" y="39" width="83" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Home"/>
+                                <connections>
+                                    <segue destination="ckH-F7-dQr" kind="show" id="Ma9-RJ-9xY"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="p7e-6A-XBs">
+                                <rect key="frame" x="293" y="20" width="101" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elC-VF-OvC">
+                                <rect key="frame" x="7" y="564" width="410" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Compost enriches soil, helping retain moisture and suppress plant diseases and pests. It reduces the need for chemical fertilizers. Composting reduces methane emissions from landfills and lowers your carbon footprint.
+</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Compost Bin" translatesAutoresizingMaskIntoConstraints="NO" id="u0b-7a-7IM">
+                                <rect key="frame" x="217" y="390" width="179" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lz8-8M-6yE">
+                                <rect key="frame" x="10" y="237" width="407" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Compost is organic material that can be added to soil to help plants grow. Making compost keeps these materials out of landfills where they take up space and release methane, a potent greenhouse gas.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Compost Pic" translatesAutoresizingMaskIntoConstraints="NO" id="4TD-Gg-wGs">
+                                <rect key="frame" x="10" y="396" width="200" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="d6E-2J-Kam">
+                                <rect key="frame" x="-1" y="112" width="415" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgd-6S-NkK">
+                                        <rect key="frame" x="0.0" y="0.0" width="96" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="WcB-TQ-ems"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <state key="normal" title=" Recycle "/>
+                                        <connections>
+                                            <segue destination="yH3-VF-fpg" kind="show" id="RmG-fh-fkL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqH-0z-Lew">
+                                        <rect key="frame" x="111" y="0.0" width="111" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="VhM-fW-cmw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <state key="normal" title=" Compost "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fhg-ue-7rV">
+                                        <rect key="frame" x="237" y="0.0" width="99" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="0sH-MU-TnO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <state key="normal" title=" Landfill "/>
+                                        <connections>
+                                            <segue destination="ftk-ub-4Bj" kind="show" id="5bp-2Y-GKq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDD-aU-bwT">
+                                        <rect key="frame" x="351" y="0.0" width="64" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="5oM-Wm-nSn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <state key="normal" title=" Quiz "/>
+                                        <connections>
+                                            <action selector="QuizBtnClicked:" destination="7aZ-tJ-4XP" eventType="touchUpInside" id="vpB-B5-DM1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="DlF-Ga-ImA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wqc-sL-qbg"/>
+                    <connections>
+                        <outlet property="CompostButton" destination="dqH-0z-Lew" id="vU9-K5-GXr"/>
+                        <outlet property="LandfillButton" destination="Fhg-ue-7rV" id="anJ-Xn-1qk"/>
+                        <outlet property="QuizButton" destination="dDD-aU-bwT" id="Z9Z-Yh-AAG"/>
+                        <outlet property="RecycleButton" destination="pgd-6S-NkK" id="iom-qp-MgI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XMp-Pm-YCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4957.971014492754" y="-952.23214285714278"/>
+        </scene>
+        <!--Landfill View Controller-->
+        <scene sceneID="jBd-7m-oHb">
+            <objects>
+                <viewController id="ftk-ub-4Bj" customClass="LandfillViewController" customModule="TestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4iP-BC-Psi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="htx-d2-dzW">
+                                <rect key="frame" x="5" y="232" width="400" height="600"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="trZ-hh-yO4">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="600"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n55-Qy-IG8">
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="X59-wa-3Jj"/>
+                                                </constraints>
+                                                <string key="text">Landfills are designed to protect the environment from contaminants, which may be present in the waste stream. They cannot be built in environmentally-sensitive areas.</string>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Landfill Pic" translatesAutoresizingMaskIntoConstraints="NO" id="nt2-4A-4DZ">
+                                                <rect key="frame" x="0.0" y="300" width="200" height="300"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="Q6C-Du-li4"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="600" id="7Wu-tN-ORF"/>
+                                            <constraint firstAttribute="width" constant="200" id="pLu-Ty-4Cg"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Mav-tY-cJM">
+                                        <rect key="frame" x="201" y="0.0" width="199" height="600"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Trash Bin" translatesAutoresizingMaskIntoConstraints="NO" id="GRh-Ut-jkW">
+                                                <rect key="frame" x="0.0" y="0.0" width="199" height="260"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEi-kZ-kuB">
+                                                <rect key="frame" x="0.0" y="300" width="199" height="300"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="eSG-hM-PlA"/>
+                                                </constraints>
+                                                <string key="text">Solid waste landfills are the third-largest source of human-related methane emissions in the United States, accounting for approximately 14.1 percent of these emissions in 2017. </string>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="600" id="G14-PA-HNi"/>
+                                    <constraint firstAttribute="width" constant="400" id="Mqo-jc-nq0"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="600" id="YLv-mt-6jP"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="400" id="ZAC-M7-Xcb"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="400" id="vlg-eG-KcO"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBd-4V-A7v">
+                                <rect key="frame" x="5" y="44" width="83" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Home"/>
+                                <connections>
+                                    <segue destination="ckH-F7-dQr" kind="show" id="3rj-P2-d8Y"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yyq-EK-C0g">
+                                <rect key="frame" x="-2" y="126" width="415.33333333333326" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gES-JP-CgM">
+                                        <rect key="frame" x="0.0" y="0.0" width="96.333333333333329" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="2Co-dC-Y7g"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <state key="normal" title=" Recycle "/>
+                                        <connections>
+                                            <segue destination="yH3-VF-fpg" kind="show" id="G7L-cb-EYb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBg-U4-rfB">
+                                        <rect key="frame" x="111.33333333333334" y="0.0" width="111" height="50"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <state key="normal" title=" Compost "/>
+                                        <connections>
+                                            <segue destination="7aZ-tJ-4XP" kind="show" id="Cg5-gw-y6r"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEj-1L-wTl">
+                                        <rect key="frame" x="237.33333333333331" y="0.0" width="99" height="50"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <state key="normal" title=" Landfill "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FC4-Tw-0rR">
+                                        <rect key="frame" x="351.33333333333337" y="0.0" width="64" height="50"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <state key="normal" title=" Quiz "/>
+                                        <connections>
+                                            <action selector="QuizBtnClicked:" destination="ftk-ub-4Bj" eventType="touchUpInside" id="ALA-su-NTm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="EbL-tr-mo8">
+                                <rect key="frame" x="293" y="20" width="101" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="T5I-Ac-qFh"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EbL-tr-mo8" firstAttribute="top" secondItem="3Hs-es-tBh" secondAttribute="top" constant="20" id="08K-Ht-D6P"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="htx-d2-dzW" secondAttribute="bottom" constant="-24" id="MMh-VK-Rhp"/>
+                            <constraint firstItem="yyq-EK-C0g" firstAttribute="top" secondItem="EbL-tr-mo8" secondAttribute="bottom" constant="18" id="NMJ-fX-Zy0"/>
+                            <constraint firstItem="yyq-EK-C0g" firstAttribute="centerX" secondItem="4iP-BC-Psi" secondAttribute="centerX" id="UJ8-5E-wjt"/>
+                            <constraint firstItem="htx-d2-dzW" firstAttribute="top" secondItem="yyq-EK-C0g" secondAttribute="bottom" constant="69" id="WJi-oC-0JF"/>
+                            <constraint firstItem="htx-d2-dzW" firstAttribute="leading" secondItem="3Hs-es-tBh" secondAttribute="leading" constant="5" id="ZVo-YX-VeE"/>
+                            <constraint firstItem="EbL-tr-mo8" firstAttribute="trailing" secondItem="4iP-BC-Psi" secondAttribute="trailingMargin" id="hnI-14-6cB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3Hs-es-tBh"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XTa-Q6-0qv"/>
+                    <connections>
+                        <outlet property="CompostButton" destination="GBg-U4-rfB" id="P04-Gw-BaG"/>
+                        <outlet property="LandfillButton" destination="uEj-1L-wTl" id="goV-Uo-YHM"/>
+                        <outlet property="QuizButton" destination="FC4-Tw-0rR" id="YjM-Zb-wEe"/>
+                        <outlet property="RecycleButton" destination="gES-JP-CgM" id="Q2U-qj-Sa0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="op9-9V-EwH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5717.3913043478269" y="-952.23214285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Rwu-cc-slK">
+                                <rect key="frame" x="107" y="359" width="200" height="124"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAj-6L-MFb">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="47"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="6Cg-0R-XQK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <state key="normal" title="Sign Up"/>
+                                        <connections>
+                                            <segue destination="qct-2K-8NK" kind="show" id="LRi-Cq-oOl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo2-O2-Syu">
+                                        <rect key="frame" x="0.0" y="77" width="200" height="47"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="f1u-4v-ORR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <state key="normal" title="Login"/>
+                                        <connections>
+                                            <segue destination="7VK-dT-8pN" kind="show" id="gdB-ND-bAi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8H-kt-G96">
+                                <rect key="frame" x="17" y="44" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Home"/>
+                                <connections>
+                                    <segue destination="ckH-F7-dQr" kind="show" id="ALu-Rk-5l4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9a9-Cn-Stb">
+                                <rect key="frame" x="27" y="54" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Home"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Rwu-cc-slK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aH0-fc-FJ8"/>
+                            <constraint firstItem="Rwu-cc-slK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qYA-je-Jho"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ant-FX-OPg"/>
+                    <connections>
+                        <outlet property="LoginButtonHome" destination="yo2-O2-Syu" id="pDd-hZ-r9s"/>
+                        <outlet property="SignUpButtonHome" destination="VAj-6L-MFb" id="iPm-Fw-Ba5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3368.115942028986" y="-42.1875"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="6Yd-Aa-sUK">
+            <objects>
+                <viewController id="7VK-dT-8pN" customClass="LoginViewController" customModule="TestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xcA-g7-AEl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="BPu-EH-5ph">
+                                <rect key="frame" x="107" y="320.66666666666669" width="200" height="201.00000000000006"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Er-1I-gQJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="60r-dJ-EMR"/>
+                                            <constraint firstAttribute="height" constant="50" id="mst-CH-XZR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yth-Lv-ywJ">
+                                        <rect key="frame" x="0.0" y="80" width="200" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="53b-PJ-7wC"/>
+                                            <constraint firstAttribute="width" constant="200" id="FsY-QQ-oG6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ezc-s1-pyX">
+                                        <rect key="frame" x="0.0" y="160" width="200" height="41"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <state key="normal" title="Login"/>
+                                        <connections>
+                                            <action selector="LoginTapped:" destination="7VK-dT-8pN" eventType="touchUpInside" id="iQV-ll-Sbo"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Psa-Wd-IFI">
+                                <rect key="frame" x="20" y="597" width="374" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.13084971770000001" blue="0.051426512180000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCJ-8w-Et9">
+                                <rect key="frame" x="20" y="44" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="QiB-Ww-ZXS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BPu-EH-5ph" firstAttribute="centerY" secondItem="xcA-g7-AEl" secondAttribute="centerY" id="A0i-Dg-sJY"/>
+                            <constraint firstItem="BPu-EH-5ph" firstAttribute="centerX" secondItem="xcA-g7-AEl" secondAttribute="centerX" id="FHU-Dt-7X0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="n0E-28-4MQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fxr-eI-sgO"/>
+                    <connections>
+                        <outlet property="EmailTxtField" destination="4Er-1I-gQJ" id="Uvx-gT-L4g"/>
+                        <outlet property="ErrorLabel" destination="Psa-Wd-IFI" id="AHG-KB-bmB"/>
+                        <outlet property="LoginButton" destination="Ezc-s1-pyX" id="ZIr-Uj-EIa"/>
+                        <outlet property="PasswordTxtField" destination="yth-Lv-ywJ" id="4ph-IM-Dup"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2zV-WD-puZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3368" y="680"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="qF8-NH-AoO">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" id="mRg-9F-ogb" customClass="HomeViewController" customModule="TestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tos-3t-Rj3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="698-Uf-319">
+                                <rect key="frame" x="112" y="128" width="190" height="640"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wlK-4L-VXU">
+                                        <rect key="frame" x="0.0" y="0.0" width="190" height="100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Zi-Zp-z7a">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="100"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                                <state key="normal" title="-"/>
+                                                <connections>
+                                                    <action selector="BoxDecrease:" destination="mRg-9F-ogb" eventType="touchUpInside" id="g0O-HR-SXH"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cardboard Box" translatesAutoresizingMaskIntoConstraints="NO" id="Pfx-7e-E55">
+                                                <rect key="frame" x="30" y="0.0" width="130" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="KLG-5e-j0L"/>
+                                                    <constraint firstAttribute="width" constant="130" id="Qi5-t9-3Jf"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="855-a6-87L">
+                                                <rect key="frame" x="160" y="0.0" width="30" height="100"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                                <state key="normal" title="+"/>
+                                                <connections>
+                                                    <action selector="BoxIncrease:" destination="mRg-9F-ogb" eventType="touchUpInside" id="rsf-JM-C8R"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kCz-ig-VSh">
+                                        <rect key="frame" x="0.0" y="135" width="190" height="100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ku-es-XXW">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="100"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                                <state key="normal" title="-"/>
+                                                <connections>
+                                                    <action selector="MilkDecrease:" destination="mRg-9F-ogb" eventType="touchUpInside" id="XHN-mv-TXx"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MilkGallon" translatesAutoresizingMaskIntoConstraints="NO" id="SLH-3U-PfJ">
+                                                <rect key="frame" x="30" y="0.0" width="130" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="130" id="0kR-Xm-JAO"/>
+                                                    <constraint firstAttribute="height" constant="100" id="Agt-xo-1UD"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnU-oP-2rb">
+                                                <rect key="frame" x="160" y="0.0" width="30" height="100"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                                <state key="normal" title="+"/>
+                                                <connections>
+                                                    <action selector="MilkIncrease:" destination="mRg-9F-ogb" eventType="touchUpInside" id="lBu-wn-7Qd"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kUa-X8-aNO">
+                                        <rect key="frame" x="0.0" y="270" width="190" height="100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Q9-Q8-l5E">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="100"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                                <state key="normal" title="-"/>
+                                                <connections>
+                                                    <action selector="BottleDecrease:" destination="mRg-9F-ogb" eventType="touchUpInside" id="4Mb-I4-a6M"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WaterBottle" translatesAutoresizingMaskIntoConstraints="NO" id="dKv-0I-M3Y">
+                                                <rect key="frame" x="30" y="0.0" width="130" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="130" id="N40-aS-G09"/>
+                                                    <constraint firstAttribute="height" constant="100" id="ru0-Zk-F6I"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUr-xb-aw3">
+                                                <rect key="frame" x="160" y="0.0" width="30" height="100"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                                <state key="normal" title="+"/>
+                                                <connections>
+                                                    <action selector="BottleIncrease:" destination="mRg-9F-ogb" eventType="touchUpInside" id="ZMa-2j-vPO"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QC8-Dq-qzN">
+                                        <rect key="frame" x="0.0" y="405" width="190" height="100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMa-hV-il5">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="100"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                                <state key="normal" title="-"/>
+                                                <connections>
+                                                    <action selector="BagDecrease:" destination="mRg-9F-ogb" eventType="touchUpInside" id="9zD-xp-6Mu"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NoGroceryBag" translatesAutoresizingMaskIntoConstraints="NO" id="mg3-fJ-Tdm">
+                                                <rect key="frame" x="30" y="0.0" width="130" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="CMt-qM-UGH"/>
+                                                    <constraint firstAttribute="width" constant="130" id="LA9-Ey-rg1"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28F-Sq-F0f">
+                                                <rect key="frame" x="160" y="0.0" width="30" height="100"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                                <state key="normal" title="+"/>
+                                                <connections>
+                                                    <action selector="BagIncrease:" destination="mRg-9F-ogb" eventType="touchUpInside" id="pby-B5-LrD"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kKv-wA-SLg">
+                                        <rect key="frame" x="0.0" y="540" width="190" height="100"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEd-9p-Dn1">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="100"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                                <state key="normal" title="-"/>
+                                                <connections>
+                                                    <action selector="TreeDecrease:" destination="mRg-9F-ogb" eventType="touchUpInside" id="FqU-uZ-y9M"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlantTree" translatesAutoresizingMaskIntoConstraints="NO" id="ne6-yr-nfs">
+                                                <rect key="frame" x="30" y="0.0" width="130" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="Asv-Zv-VOz"/>
+                                                    <constraint firstAttribute="width" constant="130" id="f0K-nZ-rQO"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLq-tz-gLf">
+                                                <rect key="frame" x="160" y="0.0" width="30" height="100"/>
+                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="35"/>
+                                                <state key="normal" title="+"/>
+                                                <connections>
+                                                    <action selector="TreeIncrease:" destination="mRg-9F-ogb" eventType="touchUpInside" id="gM2-uX-6m3"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyw-eR-K6Y">
+                                <rect key="frame" x="20" y="822" width="374" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgV-WR-f9A">
+                                <rect key="frame" x="20" y="64" width="112" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="21"/>
+                                <state key="normal" title="Sign Out"/>
+                                <connections>
+                                    <action selector="SignOutTapped:" destination="mRg-9F-ogb" eventType="touchUpInside" id="WNe-1T-ko8"/>
+                                    <segue destination="ckH-F7-dQr" kind="show" id="Uzs-wI-ast"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="698-Uf-319" firstAttribute="centerX" secondItem="Tos-3t-Rj3" secondAttribute="centerX" id="gw9-46-Dax"/>
+                            <constraint firstItem="698-Uf-319" firstAttribute="centerY" secondItem="Tos-3t-Rj3" secondAttribute="centerY" id="uGk-cQ-efV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SPG-hz-9Sn"/>
+                    </view>
+                    <connections>
+                        <outlet property="AmountLabel" destination="kyw-eR-K6Y" id="raH-5b-ZmF"/>
+                        <outlet property="DecreaseBag" destination="UMa-hV-il5" id="fQE-T4-dpp"/>
+                        <outlet property="DecreaseBottle" destination="3Q9-Q8-l5E" id="a4m-5O-N6z"/>
+                        <outlet property="DecreaseBox" destination="5Zi-Zp-z7a" id="9er-OB-p3K"/>
+                        <outlet property="DecreaseMilk" destination="6ku-es-XXW" id="deE-nb-sQi"/>
+                        <outlet property="DecreaseTree" destination="YEd-9p-Dn1" id="aQq-wy-63g"/>
+                        <outlet property="IncreaseBag" destination="28F-Sq-F0f" id="HMf-xc-5Yx"/>
+                        <outlet property="IncreaseBottle" destination="IUr-xb-aw3" id="xP1-1C-voL"/>
+                        <outlet property="IncreaseBox" destination="855-a6-87L" id="bDv-YU-Mgl"/>
+                        <outlet property="IncreaseMilk" destination="wnU-oP-2rb" id="SFE-ph-HHb"/>
+                        <outlet property="IncreaseTree" destination="RLq-tz-gLf" id="7AH-ae-OlN"/>
+                        <outlet property="SignOutBTN" destination="DgV-WR-f9A" id="bMm-az-0jw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="trs-ja-zUZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4177" y="680"/>
+        </scene>
+        <!--Back-->
+        <scene sceneID="Es0-8r-QJx">
+            <objects>
+                <viewController id="qct-2K-8NK" customClass="SignUpViewController" customModule="TestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FhK-9x-nm2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="YTw-5d-qMq">
+                                <rect key="frame" x="107" y="240.66666666666663" width="200" height="361"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nJZ-dy-gKK">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="3Zm-cq-rCk"/>
+                                            <constraint firstAttribute="width" constant="200" id="6Rf-U8-wYC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yZV-48-rJQ">
+                                        <rect key="frame" x="0.0" y="80.000000000000028" width="200" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="3de-wO-9Om"/>
+                                            <constraint firstAttribute="width" constant="200" id="wNf-Hu-V6m"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4H8-oF-Efj">
+                                        <rect key="frame" x="0.0" y="160.00000000000003" width="200" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="9Fs-94-GwE"/>
+                                            <constraint firstAttribute="height" constant="50" id="kWW-Vx-Odd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Nf-Cr-XTh">
+                                        <rect key="frame" x="0.0" y="240" width="200" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="1Eq-OK-rMw"/>
+                                            <constraint firstAttribute="height" constant="50" id="ZFH-kY-sPk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHx-JY-lvh">
+                                        <rect key="frame" x="0.0" y="320" width="200" height="41"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <state key="normal" title="Sign Up"/>
+                                        <connections>
+                                            <action selector="SignUpBtnTapped:" destination="qct-2K-8NK" eventType="touchUpInside" id="MVq-m6-dU2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Kx-VJ-gxF">
+                                <rect key="frame" x="20" y="674" width="374" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.13084971770000001" blue="0.051426512180000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nxw-hN-OEj">
+                                <rect key="frame" x="20" y="44" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="GuE-uP-I0m"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YTw-5d-qMq" firstAttribute="centerX" secondItem="FhK-9x-nm2" secondAttribute="centerX" id="17R-eY-7wU"/>
+                            <constraint firstItem="YTw-5d-qMq" firstAttribute="centerY" secondItem="FhK-9x-nm2" secondAttribute="centerY" id="hjT-kW-onI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2J7-wb-lPs"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Back" id="h33-fU-iVV"/>
+                    <connections>
+                        <outlet property="EmailTxtField" destination="4H8-oF-Efj" id="ZFZ-y3-g0Z"/>
+                        <outlet property="ErrorLabel" destination="9Kx-VJ-gxF" id="dec-34-RtJ"/>
+                        <outlet property="FirstNameTxtField" destination="nJZ-dy-gKK" id="Wmp-GM-QaU"/>
+                        <outlet property="LastNameTxtField" destination="yZV-48-rJQ" id="bNu-aF-g2Q"/>
+                        <outlet property="PasswordTxtField" destination="6Nf-Cr-XTh" id="s9I-4s-quF"/>
+                        <outlet property="SignUpButton" destination="jHx-JY-lvh" id="LC3-yn-bcx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pAI-4b-ZDP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4176.811594202899" y="-42.1875"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="Qs1-LA-ja9">
+            <objects>
+                <viewController id="ckH-F7-dQr" customClass="MainViewController" customModule="TestApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1ym-b8-wdG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnb-VO-Pay">
+                                <rect key="frame" x="46" y="414" width="322" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                <state key="normal" title="Earn your Green Passport"/>
+                                <connections>
+                                    <segue destination="soB-nQ-i5d" kind="show" id="A6J-Qt-Pxf"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hd2-ZY-TrO">
+                                <rect key="frame" x="61" y="535" width="293" height="241"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="sVq-5W-Xhz">
+                                <rect key="frame" x="303" y="67" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="eeB-sn-iXq">
+                                <rect key="frame" x="293" y="44" width="101" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dt8-W8-WaI"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dxf-d2-FWz"/>
+                    <connections>
+                        <outlet property="GifView" destination="Hd2-ZY-TrO" id="7zU-N5-Q8O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DbM-aj-uo4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1741" y="-520"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DhN-gx-V4H">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="4F5-Cb-Rui" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZfZ-ss-YB1">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ckH-F7-dQr" kind="relationship" relationship="rootViewController" id="hYb-f8-hAw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yag-RG-m6q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="938" y="-520"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cardboard Box" width="708" height="686"/>
+        <image name="Compost Bin" width="676" height="676"/>
+        <image name="Compost Pic" width="1259" height="842"/>
+        <image name="Landfill Pic" width="800" height="532"/>
+        <image name="MilkGallon" width="401" height="601"/>
+        <image name="NoGroceryBag" width="512" height="512"/>
+        <image name="PlantTree" width="360" height="360"/>
+        <image name="Recycle Bins" width="636" height="218"/>
+        <image name="SFAF_Logo" width="1114" height="960"/>
+        <image name="Trash Bin" width="355" height="468"/>
+        <image name="WaterBottle" width="349" height="446"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="RFK-zg-bYq"/>
+        <segue reference="BgV-8C-8eW"/>
+        <segue reference="bI7-P9-qX4"/>
+        <segue reference="54c-Rp-Jll"/>
+        <segue reference="RmG-fh-fkL"/>
+    </inferredMetricsTieBreakers>
+</document>
