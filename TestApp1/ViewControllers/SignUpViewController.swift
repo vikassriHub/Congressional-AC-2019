@@ -127,7 +127,7 @@ class SignUpViewController: UIViewController {
                     db.collection("users").document(result!.user.uid).setData([
                         "FirstName":FirstName,
                         "LastName":LastName,
-                        "Total": 0,
+                        "Total": 57.625,
                         ]) { (error) in
                         
                         if error != nil {

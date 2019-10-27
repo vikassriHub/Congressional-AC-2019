@@ -19,4 +19,7 @@ struct Constants {
     struct UserID {
         static var UID = ""
     }
+    struct TotalAmount{
+        static var Amount = 0.0
+    }
 }

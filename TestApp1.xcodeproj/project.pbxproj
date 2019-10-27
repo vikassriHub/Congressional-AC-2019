@@ -20,6 +20,8 @@
 		AB230B8E231349AD0042AB94 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB230B8D231349AD0042AB94 /* SignUpViewController.swift */; };
 		AB230B90231349B60042AB94 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB230B8F231349B60042AB94 /* HomeViewController.swift */; };
 		AB230B9223134C980042AB94 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB230B9123134C980042AB94 /* Utilities.swift */; };
+		AB90085C2364CDCD005DAB25 /* WasteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB90085B2364CDCD005DAB25 /* WasteViewController.swift */; };
+		AB90085E2364CDE0005DAB25 /* TransportationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB90085D2364CDE0005DAB25 /* TransportationViewController.swift */; };
 		ABA12DCA23136D3D001CC67C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABA12DC923136D3D001CC67C /* GoogleService-Info.plist */; };
 		ABA12DCE2314EDF3001CC67C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA12DCD2314EDF3001CC67C /* Constants.swift */; };
 		ABA12DD2231C77CB001CC67C /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA12DD1231C77CB001CC67C /* InitialViewController.swift */; };
@@ -36,7 +38,7 @@
 		AB0FAC84235FE8D900443257 /* Image+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Gif.swift"; sourceTree = "<group>"; };
 		AB0FAC8A235FEA0C00443257 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AB0FAC8C235FEB5A00443257 /* Earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Earth.gif; sourceTree = "<group>"; };
-		AB230B752313463D0042AB94 /* TestApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB230B752313463D0042AB94 /* We Will.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We Will.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB230B782313463D0042AB94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB230B7A2313463D0042AB94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB230B7F2313463F0042AB94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +48,8 @@
 		AB230B8D231349AD0042AB94 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		AB230B8F231349B60042AB94 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AB230B9123134C980042AB94 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		AB90085B2364CDCD005DAB25 /* WasteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteViewController.swift; sourceTree = "<group>"; };
+		AB90085D2364CDE0005DAB25 /* TransportationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationViewController.swift; sourceTree = "<group>"; };
 		ABA12DC923136D3D001CC67C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ABA12DCD2314EDF3001CC67C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ABA12DD1231C77CB001CC67C /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +93,7 @@
 		AB230B762313463D0042AB94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB230B752313463D0042AB94 /* TestApp1.app */,
+				AB230B752313463D0042AB94 /* We Will.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +127,8 @@
 				ABA12DD7231C77F9001CC67C /* CompostViewController.swift */,
 				ABA12DD9231C7805001CC67C /* LandfillViewController.swift */,
 				AB0FAC8A235FEA0C00443257 /* MainViewController.swift */,
+				AB90085B2364CDCD005DAB25 /* WasteViewController.swift */,
+				AB90085D2364CDE0005DAB25 /* TransportationViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -165,7 +171,7 @@
 			);
 			name = TestApp1;
 			productName = TestApp1;
-			productReference = AB230B752313463D0042AB94 /* TestApp1.app */;
+			productReference = AB230B752313463D0042AB94 /* We Will.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -267,11 +273,13 @@
 				ABA12DD8231C77F9001CC67C /* CompostViewController.swift in Sources */,
 				AB230B90231349B60042AB94 /* HomeViewController.swift in Sources */,
 				ABA12DD6231C77EC001CC67C /* RecycleViewController.swift in Sources */,
+				AB90085E2364CDE0005DAB25 /* TransportationViewController.swift in Sources */,
 				AB230B8C2313499F0042AB94 /* LoginViewController.swift in Sources */,
 				AB230B7B2313463D0042AB94 /* ViewController.swift in Sources */,
 				ABA12DCE2314EDF3001CC67C /* Constants.swift in Sources */,
 				AB0FAC8B235FEA0C00443257 /* MainViewController.swift in Sources */,
 				AB230B8E231349AD0042AB94 /* SignUpViewController.swift in Sources */,
+				AB90085C2364CDCD005DAB25 /* WasteViewController.swift in Sources */,
 				AB0FAC85235FE8D900443257 /* Image+Gif.swift in Sources */,
 				ABA12DDA231C7805001CC67C /* LandfillViewController.swift in Sources */,
 				ABA12DD4231C77DA001CC67C /* GeneralViewController.swift in Sources */,
@@ -422,7 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppChallenge.TestApp1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "We Will";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,7 +448,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppChallenge.TestApp1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "We Will";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
