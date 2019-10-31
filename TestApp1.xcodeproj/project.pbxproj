@@ -29,6 +29,10 @@
 		ABA12DD6231C77EC001CC67C /* RecycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA12DD5231C77EC001CC67C /* RecycleViewController.swift */; };
 		ABA12DD8231C77F9001CC67C /* CompostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA12DD7231C77F9001CC67C /* CompostViewController.swift */; };
 		ABA12DDA231C7805001CC67C /* LandfillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA12DD9231C7805001CC67C /* LandfillViewController.swift */; };
+		ABD7B0AE236AA47E0089EB98 /* IdlingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD7B0AD236AA47E0089EB98 /* IdlingViewController.swift */; };
+		ABD7B0B2236AA4B80089EB98 /* CleaningProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD7B0B1236AA4B80089EB98 /* CleaningProductsViewController.swift */; };
+		ABD7B0B4236AA4CE0089EB98 /* TreesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD7B0B3236AA4CE0089EB98 /* TreesViewController.swift */; };
+		ABD7B0B7236AA55D0089EB98 /* CarpoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD7B0B6236AA55D0089EB98 /* CarpoolViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +61,10 @@
 		ABA12DD5231C77EC001CC67C /* RecycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleViewController.swift; sourceTree = "<group>"; };
 		ABA12DD7231C77F9001CC67C /* CompostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompostViewController.swift; sourceTree = "<group>"; };
 		ABA12DD9231C7805001CC67C /* LandfillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandfillViewController.swift; sourceTree = "<group>"; };
+		ABD7B0AD236AA47E0089EB98 /* IdlingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdlingViewController.swift; sourceTree = "<group>"; };
+		ABD7B0B1236AA4B80089EB98 /* CleaningProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleaningProductsViewController.swift; sourceTree = "<group>"; };
+		ABD7B0B3236AA4CE0089EB98 /* TreesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesViewController.swift; sourceTree = "<group>"; };
+		ABD7B0B6236AA55D0089EB98 /* CarpoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpoolViewController.swift; sourceTree = "<group>"; };
 		EC39778D8C506F063AF94BBB /* Pods-TestApp1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp1.release.xcconfig"; path = "Target Support Files/Pods-TestApp1/Pods-TestApp1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +137,10 @@
 				AB0FAC8A235FEA0C00443257 /* MainViewController.swift */,
 				AB90085B2364CDCD005DAB25 /* WasteViewController.swift */,
 				AB90085D2364CDE0005DAB25 /* TransportationViewController.swift */,
+				ABD7B0AD236AA47E0089EB98 /* IdlingViewController.swift */,
+				ABD7B0B1236AA4B80089EB98 /* CleaningProductsViewController.swift */,
+				ABD7B0B3236AA4CE0089EB98 /* TreesViewController.swift */,
+				ABD7B0B6236AA55D0089EB98 /* CarpoolViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -270,12 +282,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB230B9223134C980042AB94 /* Utilities.swift in Sources */,
+				ABD7B0B7236AA55D0089EB98 /* CarpoolViewController.swift in Sources */,
 				ABA12DD8231C77F9001CC67C /* CompostViewController.swift in Sources */,
 				AB230B90231349B60042AB94 /* HomeViewController.swift in Sources */,
 				ABA12DD6231C77EC001CC67C /* RecycleViewController.swift in Sources */,
 				AB90085E2364CDE0005DAB25 /* TransportationViewController.swift in Sources */,
 				AB230B8C2313499F0042AB94 /* LoginViewController.swift in Sources */,
+				ABD7B0B2236AA4B80089EB98 /* CleaningProductsViewController.swift in Sources */,
+				ABD7B0AE236AA47E0089EB98 /* IdlingViewController.swift in Sources */,
 				AB230B7B2313463D0042AB94 /* ViewController.swift in Sources */,
+				ABD7B0B4236AA4CE0089EB98 /* TreesViewController.swift in Sources */,
 				ABA12DCE2314EDF3001CC67C /* Constants.swift in Sources */,
 				AB0FAC8B235FEA0C00443257 /* MainViewController.swift in Sources */,
 				AB230B8E231349AD0042AB94 /* SignUpViewController.swift in Sources */,

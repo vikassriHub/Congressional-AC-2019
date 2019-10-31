@@ -17,30 +17,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="cSA-bu-J2c">
-                                <rect key="frame" x="12" y="283" width="390" height="276"/>
+                                <rect key="frame" x="17" y="277" width="380" height="288"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWP-0a-t17">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="58"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="40"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="380" height="64"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="52"/>
                                         <state key="normal" title="Waste Management"/>
                                         <connections>
                                             <segue destination="yH3-VF-fpg" kind="show" id="Ypa-a9-h2b"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqx-Mz-o87">
-                                        <rect key="frame" x="0.0" y="108" width="390" height="58"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="40"/>
+                                        <rect key="frame" x="0.0" y="114" width="380" height="64"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="52"/>
                                         <state key="normal" title="Clean Air"/>
                                         <connections>
                                             <segue destination="oiS-KH-Tcq" kind="show" id="rCf-VF-FiU"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5C-6f-4lA">
-                                        <rect key="frame" x="0.0" y="216" width="390" height="60"/>
+                                        <rect key="frame" x="0.0" y="228" width="380" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="Dfo-9M-UIZ"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="27"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="39"/>
                                         <state key="normal" title="Calculate Your Carbon Footprint"/>
                                         <connections>
                                             <segue destination="BYZ-38-t0r" kind="show" id="BgV-8C-8eW"/>
@@ -52,25 +52,26 @@
                                 <rect key="frame" x="356" y="126" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Iq4-6C-Ie1">
-                                <rect key="frame" x="301" y="58" width="66" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="We Will" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7g-Di-HS5">
-                                <rect key="frame" x="47" y="102" width="267" height="128"/>
+                                <rect key="frame" x="74" y="103" width="267" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PoX-1L-6tb">
-                                <rect key="frame" x="20" y="44" width="55" height="30"/>
+                                <rect key="frame" x="24" y="47" width="51" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 <state key="normal" title="&lt; Home"/>
                                 <connections>
                                     <segue destination="ckH-F7-dQr" kind="show" id="HRr-QX-SYT"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Iq4-6C-Ie1">
+                                <rect key="frame" x="323" y="64" width="66" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -90,10 +91,10 @@
             </objects>
             <point key="canvasLocation" x="2602.898550724638" y="-519.64285714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Idling View Controller-->
         <scene sceneID="cG1-kO-DTO">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="oiS-KH-Tcq" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="oiS-KH-Tcq" customClass="IdlingViewController" customModule="We_Will" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VML-7R-Oq6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -106,128 +107,80 @@
                                 <rect key="frame" x="61" y="102" width="267" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAu-kR-638">
-                                <rect key="frame" x="34" y="44" width="55" height="30"/>
+                                <rect key="frame" x="40" y="48" width="51" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 <state key="normal" title="&lt; Home"/>
                                 <connections>
                                     <segue destination="ckH-F7-dQr" kind="show" id="8Ug-tm-SMN"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPw-65-jEO">
-                                <rect key="frame" x="20" y="238" width="374" height="228"/>
+                                <rect key="frame" x="20" y="290" width="374" height="249"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Idling is when a driver gets out of their car, but leaves their engine running. An idling car can release just as much pollution as a moving car, and millions of cars and trucks idle needlessly every day in the US. For every 10 minutes your engine is off when it’s parked, you'll prevent one pound of carbon dioxide from being released into the atmosphere.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTV-i6-E8p">
-                                <rect key="frame" x="20" y="462" width="374" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Changing the air filters in your car and home can go a long way towards saving the environment as well as your wallet. Musty rooms and the smoke from your car could be because of dirty air filters. Make sure to replace air filters to clean the air you breathe and save money on repairs and gas.
-</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAy-ij-NmT">
-                                <rect key="frame" x="327" y="775" width="54" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
-                                <state key="normal" title="Next &gt;"/>
-                                <connections>
-                                    <segue destination="Dt9-Ae-s4T" kind="show" id="7XK-eC-A7E"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rmA-lG-Pw0">
+                                <rect key="frame" x="12" y="238" width="383" height="39"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZB-za-Ybr">
+                                        <rect key="frame" x="0.0" y="0.0" width="58" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title=" Idling "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2FR-SA-LBz">
+                                        <rect key="frame" x="68" y="0.0" width="139" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title="Natural Cleaners"/>
+                                        <connections>
+                                            <segue destination="mHk-3g-LHd" kind="show" id="HLI-Wj-vGX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1c-YU-0HP">
+                                        <rect key="frame" x="217" y="0.0" width="55" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title=" Trees "/>
+                                        <connections>
+                                            <segue destination="pkP-ia-vPg" kind="show" id="Bre-sr-hTe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyt-XU-Yfw">
+                                        <rect key="frame" x="282" y="0.0" width="101" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title=" Carpooling "/>
+                                        <connections>
+                                            <segue destination="5oT-SA-MFK" kind="show" id="A0Y-qf-SMd"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bFQ-sB-NqR"/>
                     </view>
                     <navigationItem key="navigationItem" id="dIy-Tg-YWH"/>
+                    <connections>
+                        <outlet property="CarpooliButton" destination="iyt-XU-Yfw" id="crt-YP-r6P"/>
+                        <outlet property="CleanerButton" destination="2FR-SA-LBz" id="kfP-Gv-V5R"/>
+                        <outlet property="IdlingButton" destination="nZB-za-Ybr" id="vLJ-XP-Z6a"/>
+                        <outlet property="TreeButton" destination="U1c-YU-0HP" id="jet-xo-ZEP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IGK-pB-SrR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3334.7826086956525" y="-1238.1696428571429"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="USJ-px-pfW">
-            <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="Dt9-Ae-s4T" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zbD-lJ-fvo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBh-Bk-1TD">
-                                <rect key="frame" x="20" y="238" width="374" height="256"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Cleaning products can affect indoor air quality and contribute to smog formation in outdoor air. They’re released to the environment through evaporation or rinsing down the drain from cleaned surfaces and sponges. On your next trip to the store, choose all natural cleaners to improve indoor air quality and reduce ambient air pollution for your family and peers.</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="H7Q-r0-dIR">
-                                <rect key="frame" x="315" y="58" width="66" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="We Will" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jei-Nz-WFF">
-                                <rect key="frame" x="61" y="102" width="267" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qtd-yP-ROQ">
-                                <rect key="frame" x="34" y="44" width="55" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&lt; Home"/>
-                                <connections>
-                                    <segue destination="ckH-F7-dQr" kind="show" id="eMr-S6-NoZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMj-Qf-arM">
-                                <rect key="frame" x="327" y="775" width="54" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
-                                <state key="normal" title="Next &gt;"/>
-                                <connections>
-                                    <segue destination="mHk-3g-LHd" kind="show" id="HQT-dp-XwQ"/>
-                                </connections>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vB0-3y-iEr">
-                                <rect key="frame" x="20" y="502" width="374" height="233"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Planting trees can help absorb the carbon dioxide that we produce every day. One large tree can supply a family with oxygen for a day and abosorb 13 pounds of carbon each year. For an acre of trees, that’s 2.6 tons of carbon dioxide being pulled out of the atmosphere every single year. So plant a tree and clean the air.</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqw-7N-Y9C">
-                                <rect key="frame" x="20" y="775" width="55" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
-                                <state key="normal" title="&lt; Back"/>
-                                <connections>
-                                    <segue destination="oiS-KH-Tcq" kind="show" id="NUM-Qa-ajC"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="igZ-bg-cwJ"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Vbm-bE-OHy"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ibv-uO-eGI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4142.0289855072469" y="-1238.1696428571429"/>
-        </scene>
-        <!--View Controller-->
+        <!--Cleaning Products View Controller-->
         <scene sceneID="5nd-eI-Bia">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="mHk-3g-LHd" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="mHk-3g-LHd" customClass="CleaningProductsViewController" customModule="We_Will" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Z74-1e-5fi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -240,43 +193,214 @@
                                 <rect key="frame" x="68" y="98" width="267" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubF-Hn-Ra5">
-                                <rect key="frame" x="41" y="40" width="55" height="30"/>
+                                <rect key="frame" x="47" y="43" width="51" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 <state key="normal" title="&lt; Home"/>
                                 <connections>
                                     <segue destination="ckH-F7-dQr" kind="show" id="9H3-Ak-7cn"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTT-GG-kdm">
-                                <rect key="frame" x="20" y="234" width="374" height="365"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBh-Bk-1TD">
+                                <rect key="frame" x="20" y="274" width="374" height="279"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Did you know that in one year, the average passenger car consumes 550 gallons of gas and emits 80 pounds of hydrocarbons, 606 pounds of carbon monoxide, 41 pounds of nitrogen oxides, and 10,000 pounds of carbon dioxide. Carpooling means more people in a single car and less cars on the road, which leads to less air pollution, fewer carbon emissions, and fewer greenhouse gas emissions. The US could save 33 million gallons of gas each day if the average commuting vehicle carried one additional person. So find a friend and do your part.</string>
+                                <string key="text">Cleaning products can affect indoor air quality and contribute to smog formation in outdoor air. They’re released to the environment through evaporation or rinsing down the drain from cleaned surfaces and sponges. On your next trip to the store, choose all natural cleaners to improve indoor air quality and reduce ambient air pollution for your family and peers.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cnc-p6-wsJ">
-                                <rect key="frame" x="20" y="775" width="55" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="18"/>
-                                <state key="normal" title="&lt; Back"/>
-                                <connections>
-                                    <segue destination="Dt9-Ae-s4T" kind="show" id="26g-BC-NXI"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cpF-qE-d47">
+                                <rect key="frame" x="13" y="227" width="383" height="39"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5su-nH-rFp">
+                                        <rect key="frame" x="0.0" y="0.0" width="58" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title=" Idling "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2E-Se-c9G">
+                                        <rect key="frame" x="68" y="0.0" width="139" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title="Natural Cleaners"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hu0-d5-LXr">
+                                        <rect key="frame" x="217" y="0.0" width="55" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title=" Trees "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHV-nf-CWo">
+                                        <rect key="frame" x="282" y="0.0" width="101" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title=" Carpooling "/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="wUm-Ah-ch1"/>
                     </view>
                     <navigationItem key="navigationItem" id="kIk-3i-NcI"/>
+                    <connections>
+                        <outlet property="CarpoolingButton" destination="vHV-nf-CWo" id="G6W-od-fLY"/>
+                        <outlet property="CleanerButton" destination="f2E-Se-c9G" id="oqd-pp-9G6"/>
+                        <outlet property="IdlingButton" destination="5su-nH-rFp" id="zq3-gf-eW7"/>
+                        <outlet property="TreeButton" destination="Hu0-d5-LXr" id="4Zv-R5-ZvU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="teI-I4-pdF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5009" y="-1238"/>
+            <point key="canvasLocation" x="4062" y="-1238"/>
+        </scene>
+        <!--Trees View Controller-->
+        <scene sceneID="5FV-NQ-u5P">
+            <objects>
+                <viewController id="pkP-ia-vPg" customClass="TreesViewController" customModule="We_Will" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Kl-dF-k8G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="7Gk-dJ-Vgp">
+                                <rect key="frame" x="312" y="55" width="66" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="We Will" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bx2-f4-McA">
+                                <rect key="frame" x="58" y="99" width="267" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Jf-XW-JWB">
+                                <rect key="frame" x="37" y="44" width="51" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
+                                <state key="normal" title="&lt; Home"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usy-rK-fhF">
+                                <rect key="frame" x="15" y="275" width="379" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Planting trees can help absorb the carbon dioxide that we produce every day. One large tree can supply a family with oxygen for a day and abosorb 13 pounds of carbon each year. For an acre of trees, that’s 2.6 tons of carbon dioxide being pulled out of the atmosphere every single year. So plant a tree and clean the air.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="L9m-Kg-kRm">
+                                <rect key="frame" x="13" y="235" width="383" height="39"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJy-2j-hYY">
+                                        <rect key="frame" x="0.0" y="0.0" width="58" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title=" Idling "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtT-hd-STF">
+                                        <rect key="frame" x="68" y="0.0" width="139" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title="Natural Cleaners"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Id8-uQ-Vpj">
+                                        <rect key="frame" x="217" y="0.0" width="55" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title=" Trees "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kqc-O5-nY7">
+                                        <rect key="frame" x="282" y="0.0" width="101" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title=" Carpooling "/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="OdQ-sc-m1z"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="v1I-du-N3a"/>
+                    <connections>
+                        <outlet property="Carpool" destination="Kqc-O5-nY7" id="d3k-xD-AG2"/>
+                        <outlet property="CleanersButton" destination="mtT-hd-STF" id="swu-4w-KRM"/>
+                        <outlet property="IdlingButton" destination="YJy-2j-hYY" id="BLn-vx-Iy2"/>
+                        <outlet property="TreeButton" destination="Id8-uQ-Vpj" id="FYd-hu-Ztp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rGJ-lE-FDQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4857" y="-1238"/>
+        </scene>
+        <!--Carpool View Controller-->
+        <scene sceneID="QPx-i0-iR9">
+            <objects>
+                <viewController id="5oT-SA-MFK" customClass="CarpoolViewController" customModule="We_Will" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r8M-q1-vzJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="hDi-SL-cCO">
+                                <rect key="frame" x="312" y="55" width="66" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="We Will" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twc-aP-bfQ">
+                                <rect key="frame" x="58" y="99" width="267" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kO-CM-a4o">
+                                <rect key="frame" x="37" y="44" width="51" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
+                                <state key="normal" title="&lt; Home"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTT-GG-kdm">
+                                <rect key="frame" x="20" y="275" width="374" height="403"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Did you know that in one year, the average passenger car consumes 550 gallons of gas and emits 80 pounds of hydrocarbons, 606 pounds of carbon monoxide, 41 pounds of nitrogen oxides, and 10,000 pounds of carbon dioxide. Carpooling means more people in a single car and less cars on the road, which leads to less air pollution, fewer carbon emissions, and fewer greenhouse gas emissions. The US could save 33 million gallons of gas each day if the average commuting vehicle carried one additional person. So find a friend and do your part.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kpZ-Un-TxZ">
+                                <rect key="frame" x="13" y="235" width="383" height="39"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeF-9y-gyi">
+                                        <rect key="frame" x="0.0" y="0.0" width="58" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title=" Idling "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYc-it-ac2">
+                                        <rect key="frame" x="68" y="0.0" width="139" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title="Natural Cleaners"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DtU-z6-lK8">
+                                        <rect key="frame" x="217" y="0.0" width="55" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title=" Trees "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fde-qW-3ZJ">
+                                        <rect key="frame" x="282" y="0.0" width="101" height="39"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
+                                        <state key="normal" title=" Carpooling "/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Cc1-Ph-wnO"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3ZP-CT-ipb"/>
+                    <connections>
+                        <outlet property="CarpoolButton" destination="fde-qW-3ZJ" id="tyW-T5-ENw"/>
+                        <outlet property="CleanerButton" destination="QYc-it-ac2" id="AoE-yg-V0W"/>
+                        <outlet property="IdlingButton" destination="eeF-9y-gyi" id="GZU-3e-bm3"/>
+                        <outlet property="TreeButton" destination="DtU-z6-lK8" id="OWj-Li-nbc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hGf-hI-1JL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5607" y="-1238"/>
         </scene>
         <!--Recycle View Controller-->
         <scene sceneID="My5-dS-IeY">
@@ -286,45 +410,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="RTN-09-UuS">
-                                <rect key="frame" x="5" y="185" width="404" height="50"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="RTN-09-UuS">
+                                <rect key="frame" x="5" y="217" width="404" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgG-HL-xCf">
-                                        <rect key="frame" x="0.0" y="0.0" width="93" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="98" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="klT-8Y-ejx"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title=" Recycle "/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7MG-TY-3O2">
-                                        <rect key="frame" x="108" y="0.0" width="107" height="50"/>
+                                        <rect key="frame" x="113" y="0.0" width="107" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Kyk-V8-Byj"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title=" Compost "/>
                                         <connections>
                                             <segue destination="7aZ-tJ-4XP" kind="show" id="54c-Rp-Jll"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzs-qy-nk6">
-                                        <rect key="frame" x="230" y="0.0" width="95" height="50"/>
+                                        <rect key="frame" x="235" y="0.0" width="94" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="uQi-Tt-bDy"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="24"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title=" Landfill "/>
                                         <connections>
                                             <segue destination="ftk-ub-4Bj" kind="show" id="vIX-xB-yyL"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUa-uv-mCl">
-                                        <rect key="frame" x="340" y="0.0" width="64" height="50"/>
+                                        <rect key="frame" x="344" y="0.0" width="60" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="WkY-zM-Hak"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title=" Quiz "/>
                                         <connections>
                                             <action selector="QuizBtnClicked:" destination="yH3-VF-fpg" eventType="touchUpInside" id="vwT-vh-5Bi"/>
@@ -332,22 +456,17 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="1P2-NZ-rFT">
-                                <rect key="frame" x="315" y="46" width="66" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="66" id="rUp-TZ-WYr"/>
-                                </constraints>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="We Will" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J68-Z1-Zlp">
-                                <rect key="frame" x="61" y="90" width="267" height="87"/>
+                                <rect key="frame" x="61" y="90" width="267" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pds-ei-PUE">
-                                <rect key="frame" x="34" y="32" width="55" height="30"/>
+                                <rect key="frame" x="38" y="34" width="51" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 <state key="normal" title="&lt; Home"/>
                                 <connections>
                                     <segue destination="ckH-F7-dQr" kind="show" id="0Fo-IN-txn"/>
@@ -357,7 +476,7 @@
                                 <rect key="frame" x="14" y="593" width="386" height="176"/>
                                 <string key="text">Recycling reduces the amount of waste sent to landfills and incinerators. It also conserves natural resources such as timber, water and minerals. Recycling prevents pollution and saves energy.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1A-sl-cZr">
@@ -367,11 +486,15 @@
                                 </constraints>
                                 <string key="text">Recycling is the process of collecting and processing materials that would otherwise be thrown away as trash and turning them into new products. Recycling can benefit your community and the environment.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="7ri-Z9-nop">
+                                <rect key="frame" x="328" y="55" width="66" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Recycle Bins" translatesAutoresizingMaskIntoConstraints="NO" id="1VT-3V-Jlh">
-                                <rect key="frame" x="49" y="400" width="317" height="185"/>
+                                <rect key="frame" x="49" y="416" width="317" height="185"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="185" id="K8d-c5-EGK"/>
                                 </constraints>
@@ -380,9 +503,7 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="e1A-sl-cZr" firstAttribute="leading" secondItem="u0A-zg-9x9" secondAttribute="leading" constant="14" id="4Cf-9D-kYh"/>
-                            <constraint firstItem="u0A-zg-9x9" firstAttribute="trailing" secondItem="1P2-NZ-rFT" secondAttribute="trailing" constant="33" id="4no-Zm-fG9"/>
                             <constraint firstItem="RTN-09-UuS" firstAttribute="centerX" secondItem="yBn-wR-ie3" secondAttribute="centerX" id="62Y-SR-itT"/>
-                            <constraint firstItem="1P2-NZ-rFT" firstAttribute="top" secondItem="u0A-zg-9x9" secondAttribute="top" constant="46" id="8pU-9j-gp6"/>
                             <constraint firstItem="1VT-3V-Jlh" firstAttribute="leading" secondItem="u0A-zg-9x9" secondAttribute="leading" constant="49" id="DTL-Rp-BwG"/>
                             <constraint firstItem="u0A-zg-9x9" firstAttribute="trailing" secondItem="RTN-09-UuS" secondAttribute="trailing" constant="5" id="Dkp-3e-Ujl"/>
                             <constraint firstItem="1VT-3V-Jlh" firstAttribute="centerX" secondItem="e1A-sl-cZr" secondAttribute="centerX" id="Eo1-0Y-Sqd"/>
@@ -393,7 +514,6 @@
                             <constraint firstItem="e1A-sl-cZr" firstAttribute="top" secondItem="RTN-09-UuS" secondAttribute="bottom" constant="40" id="fio-WA-74w"/>
                             <constraint firstItem="1VT-3V-Jlh" firstAttribute="top" secondItem="rzT-eK-x4Q" secondAttribute="top" constant="400" id="htx-TE-Vx3"/>
                             <constraint firstItem="e1A-sl-cZr" firstAttribute="leading" secondItem="yBn-wR-ie3" secondAttribute="leading" id="irU-ui-W5u"/>
-                            <constraint firstItem="RTN-09-UuS" firstAttribute="top" secondItem="1P2-NZ-rFT" secondAttribute="bottom" constant="85" id="pvm-jt-nOQ"/>
                             <constraint firstItem="u0A-zg-9x9" firstAttribute="bottom" secondItem="yBn-wR-ie3" secondAttribute="bottom" constant="39" id="xlE-02-s0b"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="u0A-zg-9x9"/>
@@ -418,68 +538,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="d6E-2J-Kam">
-                                <rect key="frame" x="-0.66666666666665719" y="180" width="415.33333333333326" height="50"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgd-6S-NkK">
-                                        <rect key="frame" x="0.0" y="0.0" width="96.333333333333329" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="WcB-TQ-ems"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
-                                        <state key="normal" title=" Recycle "/>
-                                        <connections>
-                                            <segue destination="yH3-VF-fpg" kind="show" id="RmG-fh-fkL"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqH-0z-Lew">
-                                        <rect key="frame" x="111.33333333333334" y="0.0" width="111" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="VhM-fW-cmw"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
-                                        <state key="normal" title=" Compost "/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fhg-ue-7rV">
-                                        <rect key="frame" x="237.33333333333331" y="0.0" width="99" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="0sH-MU-TnO"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
-                                        <state key="normal" title=" Landfill "/>
-                                        <connections>
-                                            <segue destination="ftk-ub-4Bj" kind="show" id="Jk4-E2-Cdi"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDD-aU-bwT">
-                                        <rect key="frame" x="351.33333333333337" y="0.0" width="64" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="5oM-Wm-nSn"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
-                                        <state key="normal" title=" Quiz "/>
-                                        <connections>
-                                            <action selector="QuizBtnClicked:" destination="7aZ-tJ-4XP" eventType="touchUpInside" id="vpB-B5-DM1"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="bg1-NW-Kia">
-                                <rect key="frame" x="315" y="46" width="66" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="66" id="Pgn-0x-FIF"/>
-                                </constraints>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="We Will" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Wf-P8-Bek">
-                                <rect key="frame" x="61" y="90" width="267" height="82"/>
+                                <rect key="frame" x="61" y="90" width="267" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3b5-qt-00u">
-                                <rect key="frame" x="34" y="32" width="55" height="30"/>
+                                <rect key="frame" x="39" y="34" width="51" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 <state key="normal" title="&lt; Home"/>
                                 <connections>
                                     <segue destination="ckH-F7-dQr" kind="show" id="Eel-y7-hD2"/>
@@ -490,21 +559,24 @@
                                 <string key="text">Compost enriches soil, helping retain moisture and suppress plant diseases and pests. It reduces the need for chemical fertilizers. Composting reduces methane emissions from landfills and lowers your carbon footprint.
 </string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lz8-8M-6yE">
-                                <rect key="frame" x="5" y="277" width="407" height="139"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lz8-8M-6yE">
+                                <rect key="frame" x="5" y="277" width="407" height="163"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="139" id="T8J-SI-1ux"/>
                                 </constraints>
                                 <string key="text">Compost is organic material that can be added to soil to help plants grow. Making compost keeps these materials out of landfills where they take up space and release methane, a potent greenhouse gas.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Compost Pic" translatesAutoresizingMaskIntoConstraints="NO" id="4TD-Gg-wGs">
-                                <rect key="frame" x="20" y="89" width="200.00000000000023" height="842"/>
+                                <rect key="frame" x="20" y="432" width="200.00000000000023" height="164"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="164" id="Gq2-3Z-qh0"/>
+                                </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Compost Bin" translatesAutoresizingMaskIntoConstraints="NO" id="u0b-7a-7IM">
                                 <rect key="frame" x="228" y="424" width="179" height="160"/>
@@ -513,24 +585,71 @@
                                     <constraint firstAttribute="width" constant="179" id="Qez-gA-0pD"/>
                                 </constraints>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="29w-xo-1Ut">
+                                <rect key="frame" x="328" y="61" width="66" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="d6E-2J-Kam">
+                                <rect key="frame" x="1" y="219" width="415.33333333333326" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgd-6S-NkK">
+                                        <rect key="frame" x="0.0" y="0.0" width="109.33333333333333" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="WcB-TQ-ems"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
+                                        <state key="normal" title=" Recycle "/>
+                                        <connections>
+                                            <segue destination="yH3-VF-fpg" kind="show" id="RmG-fh-fkL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqH-0z-Lew">
+                                        <rect key="frame" x="124.33333333333334" y="0.0" width="107" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="VhM-fW-cmw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
+                                        <state key="normal" title=" Compost "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fhg-ue-7rV">
+                                        <rect key="frame" x="246.33333333333331" y="0.0" width="94" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="0sH-MU-TnO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
+                                        <state key="normal" title=" Landfill "/>
+                                        <connections>
+                                            <segue destination="ftk-ub-4Bj" kind="show" id="Jk4-E2-Cdi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDD-aU-bwT">
+                                        <rect key="frame" x="355.33333333333337" y="0.0" width="60" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="5oM-Wm-nSn"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
+                                        <state key="normal" title=" Quiz "/>
+                                        <connections>
+                                            <action selector="QuizBtnClicked:" destination="7aZ-tJ-4XP" eventType="touchUpInside" id="vpB-B5-DM1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="d6E-2J-Kam" firstAttribute="centerX" secondItem="IFs-6s-nRV" secondAttribute="centerX" id="1Bx-6m-dky"/>
                             <constraint firstItem="Lz8-8M-6yE" firstAttribute="leading" secondItem="DlF-Ga-ImA" secondAttribute="leading" constant="5" id="1ym-u7-B3D"/>
                             <constraint firstItem="Lz8-8M-6yE" firstAttribute="top" secondItem="d6E-2J-Kam" secondAttribute="bottom" constant="47" id="DME-SL-tF0"/>
-                            <constraint firstItem="DlF-Ga-ImA" firstAttribute="trailing" secondItem="bg1-NW-Kia" secondAttribute="trailing" constant="33" id="F6l-nd-OR4"/>
                             <constraint firstItem="u0b-7a-7IM" firstAttribute="top" secondItem="Lz8-8M-6yE" secondAttribute="bottom" constant="14" id="F87-IQ-3sZ"/>
                             <constraint firstItem="Lz8-8M-6yE" firstAttribute="leading" secondItem="4TD-Gg-wGs" secondAttribute="leading" constant="-15" id="JfU-6B-RGV"/>
-                            <constraint firstItem="u0b-7a-7IM" firstAttribute="centerY" secondItem="4TD-Gg-wGs" secondAttribute="centerY" id="Ji8-HZ-nbA"/>
                             <constraint firstItem="d6E-2J-Kam" firstAttribute="top" secondItem="IFs-6s-nRV" secondAttribute="top" constant="180" id="Sze-s5-rLL"/>
                             <constraint firstItem="Lz8-8M-6yE" firstAttribute="trailing" secondItem="elC-VF-OvC" secondAttribute="trailing" id="eJo-di-6tZ"/>
                             <constraint firstItem="u0b-7a-7IM" firstAttribute="leading" secondItem="4TD-Gg-wGs" secondAttribute="trailing" constant="-5" id="fzV-Dv-L8m"/>
                             <constraint firstItem="d6E-2J-Kam" firstAttribute="leading" secondItem="IFs-6s-nRV" secondAttribute="leadingMargin" constant="-20.666666666666657" id="hJn-Ke-kTi"/>
                             <constraint firstItem="DlF-Ga-ImA" firstAttribute="bottom" secondItem="elC-VF-OvC" secondAttribute="bottom" constant="49" id="hUE-a2-Xio"/>
-                            <constraint firstItem="bg1-NW-Kia" firstAttribute="top" secondItem="DlF-Ga-ImA" secondAttribute="top" constant="46" id="hWo-jS-0GM"/>
-                            <constraint firstItem="d6E-2J-Kam" firstAttribute="top" secondItem="bg1-NW-Kia" secondAttribute="bottom" constant="80" id="hb6-TT-hwi"/>
                             <constraint firstItem="DlF-Ga-ImA" firstAttribute="trailing" secondItem="u0b-7a-7IM" secondAttribute="trailing" constant="20" id="jjS-cE-Cri"/>
+                            <constraint firstItem="elC-VF-OvC" firstAttribute="top" secondItem="4TD-Gg-wGs" secondAttribute="bottom" constant="8" id="kEi-jy-vhd"/>
                             <constraint firstItem="DlF-Ga-ImA" firstAttribute="trailing" secondItem="Lz8-8M-6yE" secondAttribute="trailing" constant="2" id="mYk-vB-zoj"/>
                             <constraint firstItem="d6E-2J-Kam" firstAttribute="centerX" secondItem="elC-VF-OvC" secondAttribute="centerX" id="qXd-0o-yog"/>
                             <constraint firstItem="elC-VF-OvC" firstAttribute="top" secondItem="u0b-7a-7IM" secondAttribute="bottom" constant="14" id="yW4-VI-KAD"/>
@@ -547,7 +666,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XMp-Pm-YCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4144.927536231884" y="-520.3125"/>
+            <point key="canvasLocation" x="4143.4782608695659" y="-520.3125"/>
         </scene>
         <!--Landfill View Controller-->
         <scene sceneID="jBd-7m-oHb">
@@ -568,62 +687,20 @@
                                 </constraints>
                                 <string key="text">Landfills are designed to protect the environment from contaminants, which may be present in the waste stream. They cannot be built in environmentally-sensitive areas.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yyq-EK-C0g">
-                                <rect key="frame" x="-0.66666666666665719" y="184" width="415.33333333333326" height="50"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gES-JP-CgM">
-                                        <rect key="frame" x="0.0" y="0.0" width="96.333333333333329" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="2Co-dC-Y7g"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
-                                        <state key="normal" title=" Recycle "/>
-                                        <connections>
-                                            <segue destination="yH3-VF-fpg" kind="show" id="G7L-cb-EYb"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBg-U4-rfB">
-                                        <rect key="frame" x="111.33333333333334" y="0.0" width="111" height="50"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
-                                        <state key="normal" title=" Compost "/>
-                                        <connections>
-                                            <segue destination="7aZ-tJ-4XP" kind="show" id="Cg5-gw-y6r"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEj-1L-wTl">
-                                        <rect key="frame" x="237.33333333333331" y="0.0" width="99" height="50"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
-                                        <state key="normal" title=" Landfill "/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FC4-Tw-0rR">
-                                        <rect key="frame" x="351.33333333333337" y="0.0" width="64" height="50"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
-                                        <state key="normal" title=" Quiz "/>
-                                        <connections>
-                                            <action selector="QuizBtnClicked:" destination="ftk-ub-4Bj" eventType="touchUpInside" id="ALA-su-NTm"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="1Jk-Uc-a7g">
-                                <rect key="frame" x="315" y="48" width="66" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="66" id="4yu-wP-vZj"/>
-                                </constraints>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="We Will" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2m-M2-VtP">
-                                <rect key="frame" x="61" y="92" width="267" height="84"/>
+                                <rect key="frame" x="61" y="92" width="267" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPC-Rs-UE9">
-                                <rect key="frame" x="34" y="34" width="55" height="30"/>
+                                <rect key="frame" x="38" y="36" width="51" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 <state key="normal" title="&lt; Home"/>
                                 <connections>
                                     <segue destination="ckH-F7-dQr" kind="show" id="Fow-Qe-C2u"/>
@@ -638,18 +715,56 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Solid waste landfills are the third-largest source of human-related methane emissions in the United States, accounting for approximately 14.1 percent of these emissions in 2017. </string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SFAF_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="8Qt-oo-LUR">
+                                <rect key="frame" x="328" y="60" width="66" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yyq-EK-C0g">
+                                <rect key="frame" x="-4" y="225" width="415.33333333333326" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gES-JP-CgM">
+                                        <rect key="frame" x="0.0" y="0.0" width="109.33333333333333" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="2Co-dC-Y7g"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
+                                        <state key="normal" title=" Recycle "/>
+                                        <connections>
+                                            <segue destination="yH3-VF-fpg" kind="show" id="G7L-cb-EYb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBg-U4-rfB">
+                                        <rect key="frame" x="124.33333333333334" y="0.0" width="107" height="50"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
+                                        <state key="normal" title=" Compost "/>
+                                        <connections>
+                                            <segue destination="7aZ-tJ-4XP" kind="show" id="Cg5-gw-y6r"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEj-1L-wTl">
+                                        <rect key="frame" x="246.33333333333331" y="0.0" width="94" height="50"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
+                                        <state key="normal" title=" Landfill "/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FC4-Tw-0rR">
+                                        <rect key="frame" x="355.33333333333337" y="0.0" width="60" height="50"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
+                                        <state key="normal" title=" Quiz "/>
+                                        <connections>
+                                            <action selector="QuizBtnClicked:" destination="ftk-ub-4Bj" eventType="touchUpInside" id="ALA-su-NTm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="n55-Qy-IG8" firstAttribute="top" secondItem="yyq-EK-C0g" secondAttribute="bottom" constant="49" id="275-15-Smp"/>
                             <constraint firstItem="yyq-EK-C0g" firstAttribute="top" secondItem="4iP-BC-Psi" secondAttribute="top" constant="184" id="2Io-DD-XnP"/>
-                            <constraint firstItem="1Jk-Uc-a7g" firstAttribute="top" secondItem="3Hs-es-tBh" secondAttribute="top" constant="48" id="93V-lY-GSY"/>
-                            <constraint firstItem="yyq-EK-C0g" firstAttribute="top" secondItem="1Jk-Uc-a7g" secondAttribute="bottom" constant="82" id="OJQ-Ni-uvf"/>
                             <constraint firstItem="n55-Qy-IG8" firstAttribute="leading" secondItem="3Hs-es-tBh" secondAttribute="leading" constant="5" id="TcQ-cE-MP0"/>
-                            <constraint firstItem="3Hs-es-tBh" firstAttribute="trailing" secondItem="1Jk-Uc-a7g" secondAttribute="trailing" constant="33" id="ZEk-AR-1M5"/>
                             <constraint firstItem="yyq-EK-C0g" firstAttribute="leading" secondItem="4iP-BC-Psi" secondAttribute="leadingMargin" constant="-20.666666666666657" id="dUg-Gy-GFV"/>
                             <constraint firstItem="3Hs-es-tBh" firstAttribute="trailing" secondItem="n55-Qy-IG8" secondAttribute="trailing" constant="12" id="lYA-Tx-ZG0"/>
                             <constraint firstItem="yyq-EK-C0g" firstAttribute="centerX" secondItem="4iP-BC-Psi" secondAttribute="centerX" id="nQD-xg-dww"/>
@@ -677,25 +792,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Rwu-cc-slK">
-                                <rect key="frame" x="107" y="359" width="200" height="124"/>
+                                <rect key="frame" x="107" y="354" width="200" height="134"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAj-6L-MFb">
-                                        <rect key="frame" x="0.0" y="0.0" width="200" height="47"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="6Cg-0R-XQK"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="40"/>
                                         <state key="normal" title="Sign Up"/>
                                         <connections>
                                             <segue destination="qct-2K-8NK" kind="show" id="LRi-Cq-oOl"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo2-O2-Syu">
-                                        <rect key="frame" x="0.0" y="77" width="200" height="47"/>
+                                        <rect key="frame" x="0.0" y="82" width="200" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="f1u-4v-ORR"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="40"/>
                                         <state key="normal" title="Login"/>
                                         <connections>
                                             <segue destination="7VK-dT-8pN" kind="show" id="gdB-ND-bAi"/>
@@ -709,8 +824,9 @@
                                 <state key="normal" title="&lt; Home"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlE-fc-IHf">
-                                <rect key="frame" x="34" y="38" width="55" height="30"/>
+                                <rect key="frame" x="37" y="39" width="51" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 <state key="normal" title="&lt; Home"/>
                                 <connections>
                                     <segue destination="soB-nQ-i5d" kind="show" id="8yt-0l-Wbk"/>
@@ -724,7 +840,7 @@
                                 <rect key="frame" x="61" y="96" width="267" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -754,7 +870,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="BPu-EH-5ph">
-                                <rect key="frame" x="107" y="320.66666666666669" width="200" height="201.00000000000006"/>
+                                <rect key="frame" x="107" y="317.66666666666669" width="200" height="207.00000000000006"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Er-1I-gQJ">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
@@ -763,7 +879,7 @@
                                             <constraint firstAttribute="width" constant="200" id="60r-dJ-EMR"/>
                                             <constraint firstAttribute="height" constant="50" id="mst-CH-XZR"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yth-Lv-ywJ">
@@ -773,12 +889,12 @@
                                             <constraint firstAttribute="height" constant="50" id="53b-PJ-7wC"/>
                                             <constraint firstAttribute="width" constant="200" id="FsY-QQ-oG6"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ezc-s1-pyX">
-                                        <rect key="frame" x="0.0" y="160" width="200" height="41"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <rect key="frame" x="0.0" y="160" width="200" height="47"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title="Login"/>
                                         <connections>
                                             <action selector="LoginTapped:" destination="7VK-dT-8pN" eventType="touchUpInside" id="iQV-ll-Sbo"/>
@@ -787,9 +903,9 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Psa-Wd-IFI">
-                                <rect key="frame" x="20" y="597" width="374" height="23"/>
+                                <rect key="frame" x="20" y="574" width="374" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
                                 <color key="textColor" red="1" green="0.13084971770000001" blue="0.051426512180000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -801,12 +917,13 @@
                                 <rect key="frame" x="62" y="96" width="267" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCJ-8w-Et9">
-                                <rect key="frame" x="33" y="38" width="48" height="30"/>
+                                <rect key="frame" x="35" y="39" width="47" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 <state key="normal" title="&lt; Back"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="QiB-Ww-ZXS"/>
@@ -830,7 +947,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2zV-WD-puZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3333" y="920"/>
+            <point key="canvasLocation" x="3331.884057971015" y="919.41964285714278"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="qF8-NH-AoO">
@@ -842,38 +959,38 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kyw-eR-K6Y">
                                 <rect key="frame" x="20" y="768" width="374" height="40"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="NvD-QL-uiH">
                                 <rect key="frame" x="37.666666666666657" y="196" width="338.66666666666674" height="50"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2v-Nk-b12">
-                                        <rect key="frame" x="0.0" y="0.0" width="71.666666666666671" height="50"/>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2v-Nk-b12">
+                                        <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="m6V-gu-SaE"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title="House"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Bi-aP-GAY">
-                                        <rect key="frame" x="86.666666666666657" y="0.0" width="168" height="50"/>
+                                        <rect key="frame" x="102.66666666666669" y="0.0" width="155" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="N95-UG-7cL"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title="Transportation"/>
                                         <connections>
                                             <segue destination="RW3-Qy-mo8" kind="show" id="9IO-h0-40x"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucu-Mw-uQp">
-                                        <rect key="frame" x="269.66666666666663" y="0.0" width="69" height="50"/>
+                                        <rect key="frame" x="272.66666666666663" y="0.0" width="66" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Yap-K9-PHH"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title="Waste"/>
                                         <connections>
                                             <action selector="QuizBtnClicked:" destination="7aZ-tJ-4XP" eventType="touchUpInside" id="3vZ-qQ-Vao"/>
@@ -893,7 +1010,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="5Tp-xB-xJU"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                 <state key="normal" title="Update"/>
                                 <connections>
                                     <action selector="UpdateBtnTapped:" destination="mRg-9F-ogb" eventType="touchUpInside" id="MAK-HC-Hc2"/>
@@ -909,13 +1026,13 @@
                                     <constraint firstAttribute="height" constant="86" id="Od0-7I-HJm"/>
                                 </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWW-tn-leE">
                                 <rect key="frame" x="20" y="38" width="112" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
                                 <state key="normal" title="Sign Out"/>
                                 <connections>
                                     <action selector="SignOutTapped:" destination="mRg-9F-ogb" eventType="touchUpInside" id="fBq-OS-D20"/>
@@ -923,30 +1040,42 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="rDm-wZ-T6t">
-                                <rect key="frame" x="48" y="302" width="318.66666666666674" height="292"/>
+                                <rect key="frame" x="47" y="320" width="318.66666666666674" height="320"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Electricity (kWh)" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="0LG-fB-fSb">
-                                        <rect key="frame" x="0.0" y="0.0" width="318.66666666666669" height="43"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="318.66666666666669" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="tEJ-6p-Bds"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Natural Gas (Therms)" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="80w-ef-eCq">
-                                        <rect key="frame" x="0.0" y="83" width="318.66666666666669" height="43"/>
+                                        <rect key="frame" x="0.0" y="90" width="318.66666666666669" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="sum-U7-KHZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fuel Oil (Gallons)" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="leF-cl-VCi">
-                                        <rect key="frame" x="0.0" y="166" width="318.66666666666669" height="43"/>
+                                        <rect key="frame" x="0.0" y="180" width="318.66666666666669" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="CsT-gj-afc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Propane (Gallons)" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="YgA-bB-iNw">
-                                        <rect key="frame" x="0.0" y="249" width="318.66666666666669" height="43"/>
+                                        <rect key="frame" x="0.0" y="270" width="318.66666666666669" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="1EJ-Dg-0CV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
@@ -1000,7 +1129,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pU-i1-XG4">
                                 <rect key="frame" x="19" y="768" width="374" height="40"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1009,7 +1138,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="112" id="oax-Ld-WVN"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
                                 <state key="normal" title="Sign Out"/>
                                 <connections>
                                     <action selector="SignOutTapped:" destination="RW3-Qy-mo8" eventType="touchUpInside" id="0Ux-kP-oMe"/>
@@ -1027,7 +1156,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="mJC-b9-WYb"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                 <state key="normal" title="Update"/>
                                 <connections>
                                     <action selector="UpdateBtnTapped:" destination="RW3-Qy-mo8" eventType="touchUpInside" id="x2A-Ay-ee3"/>
@@ -1036,31 +1165,31 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="2eP-xx-lmj">
                                 <rect key="frame" x="37.666666666666657" y="196" width="338.66666666666674" height="50"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OT7-Mh-mBT">
-                                        <rect key="frame" x="0.0" y="0.0" width="71.666666666666671" height="50"/>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OT7-Mh-mBT">
+                                        <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="8xy-hk-EEP"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title="House"/>
                                         <connections>
                                             <segue destination="mRg-9F-ogb" kind="show" id="e4y-hF-D6n"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ni-o6-CJq">
-                                        <rect key="frame" x="86.666666666666657" y="0.0" width="168" height="50"/>
+                                        <rect key="frame" x="102.66666666666669" y="0.0" width="155" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="rrC-i5-k2t"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title="Transportation"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fsw-IX-mmM">
-                                        <rect key="frame" x="269.66666666666663" y="0.0" width="69" height="50"/>
+                                        <rect key="frame" x="272.66666666666663" y="0.0" width="66" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="HSd-R1-7FW"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title="Waste"/>
                                         <connections>
                                             <action selector="QuizBtnClicked:" destination="7aZ-tJ-4XP" eventType="touchUpInside" id="ZJj-8J-EPh"/>
@@ -1070,24 +1199,33 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Wil-lM-Cj0">
-                                <rect key="frame" x="20.333333333333343" y="327" width="373.33333333333326" height="209"/>
+                                <rect key="frame" x="20.333333333333343" y="327" width="373.33333333333326" height="230"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number of Vehicles" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="LH6-x4-lZ4">
-                                        <rect key="frame" x="0.0" y="0.0" width="373.33333333333331" height="43"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="373.33333333333331" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="hJh-ft-x9K"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mileage (miles per gallon)" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="WaU-cM-agX">
-                                        <rect key="frame" x="0.0" y="83" width="373.33333333333331" height="43"/>
+                                        <rect key="frame" x="0.0" y="90" width="373.33333333333331" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="4jR-RS-hMT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Miles Driven (per month)" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="zWA-A2-Lwt">
-                                        <rect key="frame" x="0.0" y="166" width="373.33333333333331" height="43"/>
+                                        <rect key="frame" x="0.0" y="180" width="373.33333333333331" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="toI-r4-Tb7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
@@ -1095,13 +1233,13 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="We Will" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9x-Bp-iNn">
                                 <rect key="frame" x="73" y="90" width="268" height="98"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For multiple cars, please use an average amount for the mileage and miles driven." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJf-31-ymT">
-                                <rect key="frame" x="20" y="544" width="374" height="62"/>
+                                <rect key="frame" x="19" y="565" width="374" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1148,7 +1286,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qFI-5a-Rq2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4862.3188405797109" y="918.75"/>
+            <point key="canvasLocation" x="5007" y="919"/>
         </scene>
         <!--Waste View Controller-->
         <scene sceneID="MdJ-Fe-bti">
@@ -1163,13 +1301,13 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="pvJ-ZL-4uF"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCs-72-htb">
-                                <rect key="frame" x="20" y="53" width="82" height="36"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="21"/>
+                                <rect key="frame" x="20" y="50" width="78" height="42"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
                                 <state key="normal" title="Sign Out"/>
                                 <connections>
                                     <action selector="SignOutTapped:" destination="wM1-6k-A4E" eventType="touchUpInside" id="4sC-hG-8p9"/>
@@ -1179,34 +1317,34 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="qAa-Q3-p8C">
                                 <rect key="frame" x="37.666666666666657" y="198" width="338.66666666666674" height="50"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLn-Dq-vaF">
-                                        <rect key="frame" x="0.0" y="0.0" width="72" height="50"/>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLn-Dq-vaF">
+                                        <rect key="frame" x="0.0" y="0.0" width="87.666666666666671" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="OhD-Rr-IOf"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title="House"/>
                                         <connections>
                                             <segue destination="mRg-9F-ogb" kind="show" id="tAa-U6-ZIx"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJM-CS-FEk">
-                                        <rect key="frame" x="87" y="0.0" width="168" height="50"/>
+                                        <rect key="frame" x="102.66666666666669" y="0.0" width="155" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="5HC-W1-HbO"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title="Transportation"/>
                                         <connections>
                                             <segue destination="RW3-Qy-mo8" kind="show" id="DIo-wI-1a9"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zY4-Jq-EJv">
-                                        <rect key="frame" x="270" y="0.0" width="68.666666666666686" height="50"/>
+                                        <rect key="frame" x="272.66666666666663" y="0.0" width="66" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="fYv-zg-Lpd"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title="Waste"/>
                                         <connections>
                                             <action selector="QuizBtnClicked:" destination="7aZ-tJ-4XP" eventType="touchUpInside" id="nfA-FD-jEG"/>
@@ -1221,64 +1359,84 @@
                                     <constraint firstAttribute="width" constant="66" id="nCe-FZ-5QW"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="We Will" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AtX-za-IUf">
-                                <rect key="frame" x="75" y="90" width="264" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="uqL-PY-FOf"/>
-                                </constraints>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUG-Qo-s5I">
-                                <rect key="frame" x="166.66666666666666" y="719" width="81" height="41"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                <rect key="frame" x="169" y="713" width="76" height="47"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                 <state key="normal" title="Update"/>
                                 <connections>
                                     <action selector="UpdateBtnTapped:" destination="wM1-6k-A4E" eventType="touchUpInside" id="wo5-74-kIc"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="zla-qD-DI6">
-                                <rect key="frame" x="51" y="256" width="312" height="375"/>
+                                <rect key="frame" x="47" y="256" width="320" height="410"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Recycle Plastic?" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="IcU-kA-Pft">
-                                        <rect key="frame" x="0.0" y="0.0" width="312" height="43"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="1I8-YA-1Zz"/>
+                                            <constraint firstAttribute="height" constant="50" id="sZk-SC-KSx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Recycle Glass?" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="iZC-cl-SBw">
-                                        <rect key="frame" x="0.0" y="83" width="312" height="43"/>
+                                        <rect key="frame" x="0.0" y="90" width="320" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="btV-ff-LDp"/>
+                                            <constraint firstAttribute="width" constant="320" id="dtZ-iA-wEO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="  Recycle Metal?  " textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="FTn-I1-kLG">
-                                        <rect key="frame" x="0.0" y="166" width="312" height="43"/>
+                                        <rect key="frame" x="0.0" y="180" width="320" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="RxU-xe-Kns"/>
+                                            <constraint firstAttribute="height" constant="50" id="s7C-HB-osp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Recycle Newspapers?" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="xfH-LS-xj2">
-                                        <rect key="frame" x="0.0" y="249" width="312" height="43"/>
+                                        <rect key="frame" x="0.0" y="270" width="320" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="0e5-N8-XWA"/>
+                                            <constraint firstAttribute="height" constant="50" id="MPv-G2-qca"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Recycle Magazines?" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="pvb-zT-6L8">
-                                        <rect key="frame" x="0.0" y="332" width="312" height="43"/>
+                                        <rect key="frame" x="0.0" y="360" width="320" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="LtO-4W-q5B"/>
+                                            <constraint firstAttribute="height" constant="50" id="XnN-nM-oYX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please use Y for yes and N for no." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6I6-rU-LX2">
-                                <rect key="frame" x="82.666666666666671" y="651" width="248.66666666666663" height="19.333333333333371"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <rect key="frame" x="103" y="686" width="208" height="20"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="We Will" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AtX-za-IUf">
+                                <rect key="frame" x="71" y="90" width="273" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="uqL-PY-FOf"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -1321,7 +1479,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rBh-OE-gwM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5611.594202898551" y="918.75"/>
+            <point key="canvasLocation" x="5938" y="919"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="Es0-8r-QJx">
@@ -1332,7 +1490,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="YTw-5d-qMq">
-                                <rect key="frame" x="107" y="240.66666666666663" width="200" height="361"/>
+                                <rect key="frame" x="107" y="237.66666666666663" width="200" height="367"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nJZ-dy-gKK">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
@@ -1341,7 +1499,7 @@
                                             <constraint firstAttribute="height" constant="50" id="3Zm-cq-rCk"/>
                                             <constraint firstAttribute="width" constant="200" id="6Rf-U8-wYC"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yZV-48-rJQ">
@@ -1351,7 +1509,7 @@
                                             <constraint firstAttribute="height" constant="50" id="3de-wO-9Om"/>
                                             <constraint firstAttribute="width" constant="200" id="wNf-Hu-V6m"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4H8-oF-Efj">
@@ -1361,7 +1519,7 @@
                                             <constraint firstAttribute="width" constant="200" id="9Fs-94-GwE"/>
                                             <constraint firstAttribute="height" constant="50" id="kWW-Vx-Odd"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Nf-Cr-XTh">
@@ -1371,12 +1529,12 @@
                                             <constraint firstAttribute="width" constant="200" id="1Eq-OK-rMw"/>
                                             <constraint firstAttribute="height" constant="50" id="ZFH-kY-sPk"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="25"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHx-JY-lvh">
-                                        <rect key="frame" x="0.0" y="320" width="200" height="41"/>
-                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                        <rect key="frame" x="0.0" y="320" width="200" height="47"/>
+                                        <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="35"/>
                                         <state key="normal" title="Sign Up"/>
                                         <connections>
                                             <action selector="SignUpBtnTapped:" destination="qct-2K-8NK" eventType="touchUpInside" id="MVq-m6-dU2"/>
@@ -1387,13 +1545,14 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Kx-VJ-gxF">
                                 <rect key="frame" x="20" y="674" width="374" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
                                 <color key="textColor" red="1" green="0.13084971770000001" blue="0.051426512180000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaw-K1-BFa">
-                                <rect key="frame" x="33" y="36" width="48" height="30"/>
+                                <rect key="frame" x="36" y="39" width="47" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 <state key="normal" title="&lt; Back"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="pzZ-BN-STd"/>
@@ -1407,7 +1566,7 @@
                                 <rect key="frame" x="62" y="94" width="267" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -1443,7 +1602,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnb-VO-Pay">
                                 <rect key="frame" x="46" y="434" width="322" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="45"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="50"/>
                                 <state key="normal" title="Get Started"/>
                                 <connections>
                                     <segue destination="soB-nQ-i5d" kind="show" id="A6J-Qt-Pxf"/>
@@ -1461,15 +1620,15 @@
                                 <rect key="frame" x="74" y="111" width="267" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="70"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="112"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hz4-n5-jCr">
-                                <rect key="frame" x="14" y="247" width="386" height="158.33333333333334"/>
+                                <rect key="frame" x="14" y="247" width="386" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">We will stop climate change. We will do our part to save our planet. We will ensure that the following generations have a safe world to live in.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hd2-ZY-TrO">
@@ -1516,16 +1675,14 @@
         <image name="Trash Bin" width="355" height="468"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Eel-y7-hD2"/>
-        <segue reference="eeI-KU-Ji9"/>
+        <segue reference="9H3-Ak-7cn"/>
+        <segue reference="16d-BE-s5m"/>
         <segue reference="DIo-wI-1a9"/>
         <segue reference="tAa-U6-ZIx"/>
-        <segue reference="QiB-Ww-ZXS"/>
-        <segue reference="Jk4-E2-Cdi"/>
-        <segue reference="Cg5-gw-y6r"/>
+        <segue reference="BgV-8C-8eW"/>
+        <segue reference="vIX-xB-yyL"/>
+        <segue reference="54c-Rp-Jll"/>
         <segue reference="RmG-fh-fkL"/>
-        <segue reference="7XK-eC-A7E"/>
-        <segue reference="NUM-Qa-ajC"/>
-        <segue reference="8yt-0l-Wbk"/>
+        <segue reference="A6J-Qt-Pxf"/>
     </inferredMetricsTieBreakers>
 </document>
